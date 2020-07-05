@@ -831,12 +831,21 @@
 .menu-list{
   // display: none;
   // visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   text-align: center;
-  width: 75%;
+  width: 100vw;
+  height: auto;
   display: flex;
   justify-content: flex-end;
-  margin: 20px 30px;
+  margin: 0px;
+
+  @media (min-width: 481px) {
+    
+  }
 }
 
 
@@ -892,4 +901,12 @@ nav ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
+}
+
+.first-element {
+  transform: translateX(0vw);
+}
+
+.last-element {
+
 }

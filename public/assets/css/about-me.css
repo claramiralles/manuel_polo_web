@@ -96,7 +96,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px 0px 0px;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
