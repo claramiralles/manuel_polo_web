@@ -23,7 +23,7 @@
   padding-bottom: 10px;
 }
 
-.paint__information-container,.paint__title,.paint__dimensions,.paint__date,.paint__price {
+.paint__information-container,.paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +53,7 @@
 }
 
 @media (min-width: 481px) {
-  .paint__information-container,.paint__title,.paint__dimensions,.paint__date,.paint__price {
+  .paint__information-container,.paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
     font-size: 22px;
   }
 
@@ -68,7 +68,7 @@
     padding-bottom: 30px;
   }
 
-  .paint__information-container,.paint__title,.paint__dimensions,.paint__date,.paint__price {
+  .paint__information-container,.paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
     font-size: 50px;
   }
 
