@@ -875,6 +875,12 @@ body {
   }
 }
 
+@media (min-width: 1025px) {
+  .wrapper {
+    height: 2200px;
+  }
+}
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   .title-footer {
     font-size: 2.4rem;
