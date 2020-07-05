@@ -20,7 +20,7 @@ body {
 }
 
 
-
+@import "core/_variables.scss";
 @import "components/_dropdown-menu.scss";
 @import "components/_footer.scss";
 @import "components/_project-page-style.scss";
@@ -672,5 +672,55 @@ body {
     }
 }
 
+.title-contact {
+    width: 100vw;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #4A4A4A;
+    transform: translateY(-100px);
 
+    @media (max-width: 374px) {
+        font-size: 20px;
+    }
 
+    @media (min-width: 768px) and (max-width: 1024px){
+        font-size: 32px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 42px;
+    }
+}
+
+.contact__text {
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: $lightGrey;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px 0px 0px 50px;
+    transform: translateY(-70px);
+
+    @media (max-width: 374px) {
+        font-size: 12px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px){
+        font-size: 30px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 28px;
+    }
+}
