@@ -52,10 +52,11 @@
 .footer {
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  height: 130px;
   border-top: 1px solid grey;
   flex-shrink: 0;
-  margin: 0px 20px 0px 20px;
-  padding: 40px;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0px 30px 20px;
   -webkit-transform: translate(0%, 30%);
   transform: translate(0%, 30%);
   opacity: 0;
@@ -69,7 +70,25 @@
   opacity: 1;
 }
 
+.social-icon {
+  width: 24px;
+  margin: 20px 0px 0px 5px;
+  padding: 5px 0px 5px 5px;
+  -webkit-transition: -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
+  transition: -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
+  transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
+  transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1), -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
+}
+
+.social-icon.is-visible {
+  -webkit-transform: translate(0px, -25px);
+  transform: translate(0px, -25px);
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
 .container-footer {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,7 +96,11 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  padding: 20px 0px 10px 0px;
+  padding: 30px 0px 30px 0px;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-left: -25px;
 }
 
 .social-link {
@@ -92,21 +115,20 @@
 }
 
 .title-footer {
-  font-size: 2.3rem;
+  font-size: 1.35rem;
   padding-bottom: 5%;
-  font-style: italic;
   color: whitesmoke;
 }
 
 .subtitle-footer {
-  font-size: 1.4rem;
+  font-size: 1.15rem;
   padding-bottom: 15%;
   color: #354f52;
   color: whitesmoke;
 }
 
 .mail-footer {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   text-decoration: none;
   padding-bottom: 10px;
   font-weight: 700;
@@ -117,6 +139,7 @@
   -ms-flex-negative: 0;
   flex-shrink: 0;
   color: whitesmoke;
+  padding: 10px 0px 0px 0px;
 }/* Media Queries for IPAD *//* Media Queries for Desktop *//* Main */.project-container {
   height: 30vh;
   display: -webkit-box;
@@ -546,22 +569,6 @@ body {
   transition: -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
   transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
   transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1), -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
-}
-
-.social-icon {
-  width: 18px;
-  margin-right: 20px;
-  -webkit-transition: -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
-  transition: -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
-  transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
-  transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1), -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
-}
-
-.social-icon.is-visible {
-  -webkit-transform: translate(0px, -25px);
-  transform: translate(0px, -25px);
-  -webkit-transition-delay: 300ms;
-  transition-delay: 300ms;
 }/* Projects section */.image-project {
   text-align: center;
   position: relative;

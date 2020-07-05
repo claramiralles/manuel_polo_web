@@ -75,16 +75,16 @@ body {
     transition: transform 10s .25s cubic-bezier(0,1,.3,1);
 }
 
-.social-icon {
-    width: 18px;
-    margin-right: 20px;
-    transition: transform 10s .25s cubic-bezier(0,1,.3,1);
-}
+// .social-icon {
+//     width: 18px;
+//     margin-right: 20px;
+//     transition: transform 10s .25s cubic-bezier(0,1,.3,1);
+// }
 
-.social-icon.is-visible {
-    transform: translate(0px, -25px);   
-    transition-delay: 300ms;       
-}
+// .social-icon.is-visible {
+//     transform: translate(0px, -25px);   
+//     transition-delay: 300ms;       
+// }
 
 /* Projects section */
 
