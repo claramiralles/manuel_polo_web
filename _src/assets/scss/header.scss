@@ -857,7 +857,7 @@
   display: block;
   text-decoration: none;
   color: whitesmoke;
-  margin: 0 10px;
+  margin: 0 8px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -903,7 +903,8 @@ nav ul li a:hover:after {
 }
 
 .first-element {
-  transform: translateX(0vw);
+  // transform: translateX(-8px);
+
 }
 
 .last-element {

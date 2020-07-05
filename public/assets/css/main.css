@@ -908,8 +908,8 @@ body {
 
 .button-cta {
   width: 137px;
-  padding: 10px 1px 10px 1px;
   margin: -20px 0px 0px 0px;
+  padding: 10px 1px 10px 1px;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -922,11 +922,9 @@ body {
   border-radius: 25px;
 }
 
-@media (min-width: 481px) and (max-width: 1024px) {
-  .signature__image {
-    width: 200px;
-    -webkit-transform: translate(52px, -117px);
-    transform: translate(52px, -117px);
+@media (min-width: 481px) and (max-width: 768px) {
+  .wrapper {
+    height: 1250px;
   }
 
   .button-cta {
@@ -934,6 +932,14 @@ body {
     font-size: 22px;
     padding: 20px 10px;
     font-weight: 400;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .signature__image {
+    width: 250px;
+    -webkit-transform: translate(100px, -80px);
+    transform: translate(100px, -80px);
   }
 }
 
@@ -1039,6 +1045,35 @@ body {
 
   .link-category {
     font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    height: 1500px;
+  }
+
+  .text__containter {
+    -webkit-transform: translate(10px, 240px);
+    transform: translate(10px, 240px);
+  }
+
+  .title-h1 {
+    font-size: 60px;
+  }
+
+  .subtitle-h2 {
+    font-size: 40px;
+    margin-left: -30px;
+    padding-top: 10px;
+  }
+
+  .button-cta {
+    width: 300px;
+    margin: 20px 0px 0px -24px;
+    padding: 20px 10px;
+    font-size: 30px;
+    font-weight: 400;
   }
 }
 

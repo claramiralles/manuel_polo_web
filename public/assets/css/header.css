@@ -95,7 +95,7 @@
   display: block;
   text-decoration: none;
   color: whitesmoke;
-  margin: 0 10px;
+  margin: 0 8px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -132,11 +132,6 @@ nav ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
-}
-
-.first-element {
-  -webkit-transform: translateX(0vw);
-  transform: translateX(0vw);
 }
 
 @media (min-width: 481px) {

@@ -503,12 +503,12 @@ body {
     justify-content: center;
     align-items: center;
     // margin: 50px 0px 0px 140px;
-        @media (min-width: 481px) and (max-width: 1024px){
+        @media (min-width: 481px) and (max-width: 768px){
             // margin: 50px 0px 0px 300px;
         }
-        // @media (min-width: 769px) and (max-width: 1024px){
-
-        // }
+        @media (min-width: 769px) and (max-width: 1024px){
+            transform: translate(10px, 240px);
+        }
         @media (min-width: 1025px) {
 
         }
@@ -519,13 +519,14 @@ body {
     transform: translate(35px, -20px);
 
         @media (min-width: 481px) and (max-width: 1024px){
-            width: 200px;
-            transform: translate(52px, -117px);
+            width: 250px;
+            transform: translate(100px, -80px);
         }
         // @media (min-width: 769px) and (max-width: 1024px){
 
         // }
         @media (min-width: 1025px) {
+
 
         }
 }
@@ -539,12 +540,12 @@ body {
     font-size: 22px;
     color: $darkGrey;
 
-        @media (min-width: 481px) and (max-width: 1024px){
+        @media (min-width: 481px) and (max-width: 768px){
 
         }
-        // @media (min-width: 769px) and (max-width: 1024px){
-
-        // }
+        @media (min-width: 769px) and (max-width: 1024px){
+            font-size: 60px;
+        }
         @media (min-width: 1025px) {
             padding: 50px 0px 0px 250px;
         }
@@ -561,9 +562,11 @@ body {
         @media (min-width: 481px) and (max-width: 768px){
 
         }
-        // @media (min-width: 769px) and (max-width: 1024px){
-
-        // }
+        @media (min-width: 769px) and (max-width: 1024px){
+            font-size: 40px;
+            margin-left: -30px;
+            padding-top: 10px;
+        }
         @media (min-width: 1025px) {
             padding: 5px 0px 0px 50px;
         }
@@ -571,8 +574,8 @@ body {
 
 .button-cta {
     width: 137px;
-    padding: 10px 1px 10px 1px;
     margin: -20px 0px 0px 0px;
+    padding: 10px 1px 10px 1px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -583,15 +586,19 @@ body {
     border: 1px solid #979797;
     border-radius: 25px;
 
-        @media (min-width: 481px) and (max-width: 1024px){
+        @media (min-width: 481px) and (max-width: 768px){
             width: 200px;
             font-size: 22px;
             padding: 20px 10px;
             font-weight: 400;
         }
-        // @media (min-width: 769px) and (max-width: 1024px){
-
-        // }
+        @media (min-width: 769px) and (max-width: 1024px){
+            width: 300px;
+            margin: 20px 0px 0px -24px;
+            padding: 20px 10px;
+            font-size: 30px;
+            font-weight: 400;
+        }
         @media (min-width: 1025px) {
             margin: -8px 50px;
         }

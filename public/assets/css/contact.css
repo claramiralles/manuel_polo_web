@@ -740,6 +740,12 @@ body {
   background-color: #14d9c4;
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+  .wrapper {
+    height: 1250px;
+  }
+}
+
 @media all and (min-width: 768px) {
   .page__main-title {
     font: Arial;
@@ -860,6 +866,12 @@ body {
 
   .contact-me-subtitle {
     font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    height: 1500px;
   }
 }
 
