@@ -284,9 +284,9 @@ padding-top: 25px;
 /* Media Queries for IPAD */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
   .mobile-container-list {
-      padding-top: 280px; 
+      padding-top: 280px;
   }
 
   .cover-container-text {
@@ -298,19 +298,19 @@ padding-top: 25px;
       left: 60%;
       top: 5%;
   }
-     
+
   .title-project-left {
       font-size: 5.4rem;
       top: 5%;
       left: 5%;
   }
-  
+
   .link-project {
       top: 14%;
       left: 55%;
       font-size: 2rem;
   }
-  
+
   .link-project-left {
       top: 14%;
       left: 47%;
@@ -330,7 +330,7 @@ padding-top: 25px;
       display: none;
       visibility: hidden;
   }
-  
+
   .menu-list {
       display: flex;
       visibility: inherit;
@@ -344,7 +344,7 @@ padding-top: 25px;
   .cover-container-text {
       padding-left: 60px;
   }
-  
+
   .cover-paragraph {
       font-size: 3.8rem;
       padding-right: 100px;
