@@ -503,8 +503,11 @@ body {
     justify-content: center;
     align-items: center;
     // margin: 50px 0px 0px 140px;
+        @media (min-width: 319px) and (max-width: 376px){
+            transform: translate(37px, 122px);
+        }
         @media (min-width: 481px) and (max-width: 768px){
-            // margin: 50px 0px 0px 300px;
+            transform: translate(110px, 220px);
         }
         @media (min-width: 769px) and (max-width: 1024px){
             transform: translate(10px, 240px);
@@ -541,7 +544,7 @@ body {
     color: $darkGrey;
 
         @media (min-width: 481px) and (max-width: 768px){
-
+            font-size: 50px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
             font-size: 60px;
@@ -560,7 +563,9 @@ body {
     margin-left: -24px;
     padding-bottom: 0;
         @media (min-width: 481px) and (max-width: 768px){
-
+            font-size: 30px;
+              margin-left: -30px;
+            padding-top: 10px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
             font-size: 40px;
