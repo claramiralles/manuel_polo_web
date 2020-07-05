@@ -52,6 +52,32 @@
   text-decoration: underline;
 }
 
+.title-list {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #4A4A4A;
+  padding: 40px 0px 40px 20px;
+  text-decoration: underline;
+}
+
+.item-container-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  border: 1px solid #596A62;
+}
+
 .paint__information-container-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,16 +86,16 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   color: #596A62;
   font-weight: 500;
   text-decoration: none;
-  border: 1px solid #596A62;
+  width: 45vw;
 }
 
 .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
@@ -95,8 +121,6 @@
 
 .image-exposition-list {
   width: 20vw;
-  padding-top: 20px;
-  padding-bottom: 10px;
 }
 
 @media (min-width: 481px) {
@@ -108,12 +132,12 @@
     font-size: 46px;
   }
 
-  .paint__information-container-list {
-    font-size: 22px;
+  .title-list {
+    font-size: 46px;
   }
 
   .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
-    font-size: 22px;
+    font-size: 12px;
   }
 }
 
@@ -132,17 +156,13 @@
     font-size: 90px;
   }
 
-  .paint__information-container-list {
-    font-size: 50px;
+  .title-list {
+    padding: 30px 0px 40px 50px;
+    font-size: 90px;
   }
 
   .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
-    font-size: 50px;
-  }
-
-  .image-exposition-list {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    font-size: 14px;
   }
 }
 
