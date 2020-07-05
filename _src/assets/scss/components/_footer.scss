@@ -1,23 +1,23 @@
 /* footer */
 
 .wrapper {
-    min-height: 58vh;
+    height: 600px;
     display: flex;
     flex-direction: column;
-  } 
-   
+}
+
 .page-body {
     flex-grow: 1;
-  }
+}
 
 .footer {
-    flex-shrink: 0;
-    height: 130px;
+    // flex-shrink: 0;
+    height: 60px;
     border-top: 1px solid grey;
     flex-shrink: 0;
     margin: 0px 0px 0px 0px;
-    padding: 30px 0px 30px 20px;
-    transform: translate(0%,30%);
+    padding: 30px 0px 0px 20px;
+    // transform: translate(0px,-10px);
     opacity: 0;
     transition: opacity .5s .25s ease-out;
     background-image: linear-gradient(-90deg, #2B2D42, #565977);
@@ -44,9 +44,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     justify-content: flex-end;
     margin-left: -25px;
+    transform: translateY(-40px)
 }
 
 .social-link {
@@ -62,15 +63,17 @@
 
 .title-footer {
     font-size: 1.35rem;
-    padding-bottom: 5%;
+    padding-top: 0px;
+    padding-bottom: 5px;
     color: whitesmoke;
 }
-
-.subtitle-footer {
-    font-size: 1.15rem;
-    padding-bottom: 15%;
-    color: #354f52;
+.subtitle-footer{
+    font-size: 1.25rem;
+    flex-shrink: 0;
     color: whitesmoke;
+    padding: 0px 0px 0px 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
 }
 
 .mail-footer {
@@ -82,9 +85,12 @@
 }
 
 .footer-credits-text {
+    font-size: 1.25rem;
     flex-shrink: 0;
     color: whitesmoke;
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 
 /* Media Queries for IPAD */

@@ -10,6 +10,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #242424;
     font-weight: 300;
+    overflow: hidden;
 }
 
 body {
@@ -495,7 +496,7 @@ body {
 }
 
 .text__containter{
-    transform: translate(17px, 82px);
+    transform: translate(17px, 122px);
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -515,7 +516,7 @@ body {
 
 .signature__image {
     width: 90px;
-    transform: translate(35px, -55px);
+    transform: translate(35px, -20px);
 
         @media (min-width: 481px) and (max-width: 1024px){
             width: 200px;
@@ -531,6 +532,7 @@ body {
 
 
 .title-h1 {
+    margin-top: 30px;
     padding-bottom: 0px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
