@@ -4,6 +4,7 @@
     height: 600px;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 
         @media (min-width: 481px) and (max-width: 768px){
             height: 1250px;
@@ -17,7 +18,8 @@
 }
 
 .page-body {
-    flex-grow: 1;
+    // flex-grow: 1;
+    // background-color: #ffffff;
 }
 
 .footer {

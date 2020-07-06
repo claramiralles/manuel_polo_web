@@ -41,12 +41,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-}
-
-.page-body {
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+  background-color: #ffffff;
 }
 
 .footer {
@@ -962,18 +957,22 @@ body {
 
   .title-h1 {
     font-size: 50px;
+    padding-bottom: 50px;
+    padding-left: 56px;
   }
 
   .subtitle-h2 {
     font-size: 30px;
-    margin-left: -30px;
-    padding-top: 10px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
   }
 
   .button-cta {
     width: 200px;
+    height: 80px;
+    margin: 0px 0px 0px -30px;
     font-size: 22px;
-    padding: 20px 10px;
     font-weight: 400;
   }
 }
