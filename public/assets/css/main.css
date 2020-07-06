@@ -882,6 +882,17 @@ body {
   align-items: center;
 }
 
+.poem__container {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  font-style: italic;
+  font-size: 16px;
+}
+
+.poem__text {
+  font-size: 16px;
+}
+
 .signature__image {
   width: 90px;
   -webkit-transform: translate(35px, -20px);
@@ -929,6 +940,18 @@ body {
   }
 }
 
+@media (min-width: 319px) and (max-width: 374px) {
+  .poem__container {
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+    font-size: 14px;
+  }
+
+  .poem__text {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
   .wrapper {
     height: 1250px;
@@ -937,6 +960,16 @@ body {
   .text__containter {
     -webkit-transform: translate(110px, 220px);
     transform: translate(110px, 220px);
+  }
+
+  .poem__container {
+    -webkit-transform: translate(350px, -60px);
+    transform: translate(350px, -60px);
+    font-size: 34px;
+  }
+
+  .poem__text {
+    font-size: 24px;
   }
 
   .title-h1 {
@@ -1080,6 +1113,16 @@ body {
     transform: translate(10px, 240px);
   }
 
+  .poem__container {
+    -webkit-transform: translate(340px, -60px);
+    transform: translate(340px, -60px);
+    font-size: 34px;
+  }
+
+  .poem__text {
+    font-size: 34px;
+  }
+
   .title-h1 {
     font-size: 60px;
   }
@@ -1107,6 +1150,16 @@ body {
   .text__containter {
     -webkit-transform: translate(10px, 320px);
     transform: translate(10px, 320px);
+  }
+
+  .poem__container {
+    -webkit-transform: translate(340px, -60px);
+    transform: translate(340px, -60px);
+    font-size: 34px;
+  }
+
+  .poem__text {
+    font-size: 44px;
   }
 
   .signature__image {
