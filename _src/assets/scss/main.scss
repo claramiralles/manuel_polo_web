@@ -540,23 +540,23 @@ body {
         }
 }
 
-.poem__text {
+// .poem__text {
 
-   font-size: 16px;
-    // margin: 50px 0px 0px 140px;
-        @media (min-width: 319px) and (max-width: 374px){
-            font-size: 14px;
-        }
-        @media (min-width: 481px) and (max-width: 768px){
-            font-size: 24px;
-        }
-        @media (min-width: 769px) and (max-width: 1024px){
-            font-size: 34px;
-        }
-        @media (min-width: 1025px) {
-            font-size: 44px;
-        }
-}
+//    font-size: 16px;
+//     // margin: 50px 0px 0px 140px;
+//         @media (min-width: 319px) and (max-width: 374px){
+//             font-size: 8px;
+//         }
+//         @media (min-width: 481px) and (max-width: 768px){
+//             font-size: 24px;
+//         }
+//         @media (min-width: 769px) and (max-width: 1024px){
+//             font-size: 34px;
+//         }
+//         @media (min-width: 1025px) {
+//             font-size: 44px;
+//         }
+// }
 .signature__image {
     width: 90px;
     transform: translate(35px, -20px);
