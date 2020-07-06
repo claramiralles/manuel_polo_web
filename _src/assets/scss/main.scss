@@ -507,7 +507,7 @@ body {
             transform: translate(37px, 122px);
         }
         @media (min-width: 481px) and (max-width: 768px){
-            transform: translate(110px, 220px);
+            transform: translate(140px, 220px);
         }
         @media (min-width: 769px) and (max-width: 1024px){
             transform: translate(10px, 240px);
@@ -585,8 +585,8 @@ body {
 
         @media (min-width: 481px) and (max-width: 768px){
             font-size: 50px;
-            padding-bottom: 50px;
-            padding-left: 56px;
+            padding-bottom: 30px;
+            padding-left: 30px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
             font-size: 60px;
@@ -606,9 +606,9 @@ body {
     padding-bottom: 0;
         @media (min-width: 481px) and (max-width: 768px){
             font-size: 30px;
-            margin-left: 0px;
-            padding-top: 0px;
-            padding-bottom: 30px;
+            padding-left: -10px;
+            margin-top: 20px;
+            padding-bottom: 20px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
             font-size: 40px;
@@ -624,6 +624,7 @@ body {
 
 .button-cta {
     width: 137px;
+    height: 20px;
     margin: -20px 0px 0px 0px;
     padding: 10px 1px 10px 1px;
     font-family: 'Josefin Sans', sans-serif;
@@ -635,13 +636,17 @@ body {
     color: whitesmoke;
     border: 1px solid #979797;
     border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
         @media (min-width: 481px) and (max-width: 768px){
-            width: 200px;
-            height: 80px;
+            width: 240px;
+            height: 60px;
             margin: 0px 0px 0px -30px;
             // padding: 20px 10px;
-            font-size: 22px;
+            font-size: 26px;
             font-weight: 400;
         }
         @media (min-width: 769px) and (max-width: 1024px){

@@ -910,6 +910,7 @@ body {
 
 .button-cta {
   width: 137px;
+  height: 20px;
   margin: -20px 0px 0px 0px;
   padding: 10px 1px 10px 1px;
   font-family: 'Josefin Sans', sans-serif;
@@ -922,6 +923,19 @@ body {
   color: whitesmoke;
   border: 1px solid #979797;
   border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (min-width: 319px) and (max-width: 376px) {
@@ -945,8 +959,8 @@ body {
   }
 
   .text__containter {
-    -webkit-transform: translate(110px, 220px);
-    transform: translate(110px, 220px);
+    -webkit-transform: translate(140px, 220px);
+    transform: translate(140px, 220px);
   }
 
   .poem__container {
@@ -957,22 +971,22 @@ body {
 
   .title-h1 {
     font-size: 50px;
-    padding-bottom: 50px;
-    padding-left: 56px;
+    padding-bottom: 30px;
+    padding-left: 30px;
   }
 
   .subtitle-h2 {
     font-size: 30px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding-left: -10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
   }
 
   .button-cta {
-    width: 200px;
-    height: 80px;
+    width: 240px;
+    height: 60px;
     margin: 0px 0px 0px -30px;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 400;
   }
 }
