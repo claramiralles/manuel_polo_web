@@ -499,48 +499,45 @@ body {
 .text__containter{
     // transform: translate(17px, 122px);
     width: 100vw;
-    margin: 20% 0% 0% 10%;
+    margin: 120px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     // margin: 50px 0px 0px 140px;
-//         @media (min-width: 319px) and (max-width: 376px){
-//             // transform: translate(37px, 122px);
-//         }
-//         @media (min-width: 481px) and (max-width: 768px){
-//             // transform: translate(140px, 220px);
-//         }
-//         @media (min-width: 769px) and (max-width: 1024px){
-//             // transform: translate(10px, 240px);
-//         }
-//         @media (min-width: 1025px) {
-//             // transform: translate(10px, 320px);
-//         }
+        @media (min-width: 319px) and (max-width: 376px){
+            // transform: translate(37px, 122px);
+        }
+        @media (min-width: 481px) and (max-width: 768px){
+            // transform: translate(140px, 220px);
+        }
+        @media (min-width: 769px) and (max-width: 1024px){
+            // transform: translate(10px, 240px);
+        }
+        @media (min-width: 1025px) {
+            // transform: translate(10px, 320px);
+        }
 }
 
 .poem__container {
 //    transform: translateX(200px);
    font-style: italic;
    font-size: 16px;
-   margin: 10% 0% 0% 50%;
-   padding-bottom: 70px;
-        @media (min-width: 319px) and (max-width: 374px){
-            // transform: translateX(150px);
-            font-size: 14px;
+
+        @media (min-width: 319px) and (max-width: 374px) {
+
         }
-        @media (min-width: 481px) and (max-width: 768px){
-            // transform: translate(350px, -60px);
-            font-size: 64px;
+        @media (min-width: 481px) and (max-width: 768px) {
+            margin: 50px 0px 0px 460px;
+            padding-bottom: 70px;
         }
-        @media (min-width: 769px) and (max-width: 1024px){
-            // transform: translate(340px, -60px);
-            font-size: 34px;
+        @media (min-width: 769px) and (max-width: 1024px) {
+
         }
         @media (min-width: 1025px) {
-            // transform: translate(340px, -60px);
-            font-size: 34px;
+
         }
+
 }
 
 .poem__text {
@@ -551,13 +548,13 @@ body {
             font-size: 8px;
         }
         @media (min-width: 481px) and (max-width: 768px){
-            font-size: 24px;
+            font-size: 12px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
-            font-size: 34px;
+            font-size: 24px;
         }
         @media (min-width: 1025px) {
-            font-size: 44px;
+            font-size: 24px;
         }
 }
 
@@ -569,17 +566,20 @@ body {
     position: absolute;
     // transform: translate(35px, -20px);
 
-        @media (min-width: 481px) and (max-width: 1024px){
+        @media (min-width: 481px) and (max-width: 768px){
             width: 130px;
-            margin: 0px 0px 0px 10px;
+            // margin: 0px 0px 0px 10px;
             // transform: translate(100px, -80px);
+            top: 30%;
+            left: 10%;
         }
         @media (min-width: 769px) and (max-width: 1024px){
-
+            top: 27%;
+            left: 60%;
         }
         @media (min-width: 1025px) {
             width: 170px;
-            margin: -35% 0% 0% 10%;
+            // margin: -35% 0% 0% 10%;
             // transform: translate(100px, -80px);
         }
 }
