@@ -10,7 +10,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #242424;
     font-weight: 300;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 .cover {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: auto;
   opacity: 0;
   transition: opacity .5s .25s ease-out;
   padding-top: 25px;

@@ -43,7 +43,6 @@ body {
   color: #2CEAA3;
   font-size: 5.4rem;
 }/* footer */.wrapper {
-  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,8 +53,14 @@ body {
   background-color: #ffffff;
 }
 
+.page-body {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
 .footer {
-  height: 60px;
+  height: auto;
   border-top: 1px solid grey;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -774,12 +779,6 @@ body {
   transform: translateY(-70px);
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-  .wrapper {
-    height: 1250px;
-  }
-}
-
 @media all and (min-width: 768px) {
   .page__main-title {
     font: Arial;
@@ -912,12 +911,6 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  .wrapper {
-    height: 1500px;
-  }
-}
-
 @media (min-width: 1024px) {
   .title-contact {
     font-size: 42px;
@@ -925,12 +918,6 @@ body {
 
   .contact__text {
     font-size: 28px;
-  }
-}
-
-@media (min-width: 1025px) {
-  .wrapper {
-    height: 2200px;
   }
 }
 
