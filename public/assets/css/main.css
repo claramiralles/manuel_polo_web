@@ -50,20 +50,36 @@
 }
 
 .footer {
+  max-height: 60px;
   height: auto;
   border-top: 1px solid grey;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   margin: 0px 0px 0px 0px;
-  padding: 30px 0px 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
   opacity: 0;
   -webkit-transition: opacity .5s .25s ease-out;
   transition: opacity .5s .25s ease-out;
   background-image: -webkit-gradient(linear, right top, left top, from(#2B2D42), to(#565977));
   background-image: linear-gradient(-90deg, #2B2D42, #565977);
-  position: absolute;
   width: 100%;
-  bottom: 0% !important;
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer.is-visible {
@@ -492,7 +508,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #242424;
   font-weight: 300;
-  height: auto;
+  max-height: 550px;
 }
 
 body {
@@ -868,10 +884,13 @@ body {
 
 .bkg-image {
   width: 100vw;
+  max-height: 250px;
   height: auto;
+  background-position: center;
+  background-size: contain;
 }
 
-.text__containter {
+.right__container {
   width: 100vw;
   margin: 120px 0px 0px 0px;
   display: -webkit-box;
@@ -887,9 +906,10 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  display: absolute;
 }
 
-.poem__container {
+.bottom__container {
   font-style: italic;
   font-size: 16px;
   position: absolute;
@@ -966,7 +986,7 @@ body {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .poem__container {
+  .bottom__container {
     margin: 50px 0px 0px 460px;
     padding-bottom: 70px;
   }
@@ -1263,12 +1283,19 @@ body {
 }
 
 @media (min-width: 1025px) {
+  .right__container {
+    top: 50%;
+    left: 50%;
+  }
+
   .poem__text {
     font-size: 24px;
   }
 
   .signature__image {
     width: 170px;
+    top: 60%;
+    left: 20%;
   }
 
   .title-h1 {
