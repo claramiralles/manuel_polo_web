@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    // position: relative;
 
         // @media (min-width: 481px) and (max-width: 768px){
         //     height: 100vh;
@@ -19,6 +20,7 @@
 
 .page-body {
     flex-grow: 1;
+    // position: relative;
     // background-color: #ffffff;
 }
 
@@ -33,6 +35,9 @@
     opacity: 0;
     transition: opacity .5s .25s ease-out;
     background-image: linear-gradient(-90deg, #2B2D42, #565977);
+    position: absolute;
+    width: 100%;
+    bottom: 0% !important;
 }
 
 .footer.is-visible {

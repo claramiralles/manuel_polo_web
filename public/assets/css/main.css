@@ -61,6 +61,9 @@
   transition: opacity .5s .25s ease-out;
   background-image: -webkit-gradient(linear, right top, left top, from(#2B2D42), to(#565977));
   background-image: linear-gradient(-90deg, #2B2D42, #565977);
+  position: absolute;
+  width: 100%;
+  bottom: 0% !important;
 }
 
 .footer.is-visible {
@@ -478,13 +481,18 @@
 
 .project-button:hover {
   font-size: 2.3rem;
-}/* Media Queries for IPAD *//* Media Queries for Desktop */* {
+}/* Media Queries for IPAD *//* Media Queries for Desktop */html {
+  background-color: #ffffff;
+}
+
+* {
   margin: 0px;
   padding: 0px;
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   color: #242424;
   font-weight: 300;
+  height: auto;
 }
 
 body {
@@ -884,15 +892,19 @@ body {
 .poem__container {
   font-style: italic;
   font-size: 16px;
+  position: absolute;
+  top: 90%;
+  right: 20%;
+  width: 120px;
 }
 
 .poem__text {
-  font-size: 16px;
+  font-size: 6px;
 }
 
 .signature__image {
-  width: 90px;
-  margin: 0px 0px 0px 10px;
+  width: 50px;
+  margin: 0px 0px 0px 0px;
   top: 22%;
   left: 10%;
   position: absolute;
@@ -964,7 +976,7 @@ body {
   }
 
   .signature__image {
-    width: 130px;
+    width: 70px;
     top: 30%;
     left: 10%;
   }
