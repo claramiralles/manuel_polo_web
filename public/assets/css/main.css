@@ -1303,20 +1303,23 @@ body {
     top: 55%;
     left: 25%;
   }
+}
 
+@media (min-width: 1025px) and (max-width: 1439px) {
   .title-h1 {
     font-size: 50px;
+    padding-left: 60px;
   }
 
   .subtitle-h2 {
     font-size: 30px;
     padding-top: 20px;
-    margin-left: 254px;
+    margin-left: 164px;
   }
 
   .button-cta {
     width: 300px;
-    margin: 20px 0px 0px 14px;
+    margin: 5px 0px 0px 74px;
     padding: 15px 5px;
     font-size: 34px;
     font-weight: 400;
@@ -1437,6 +1440,23 @@ body {
 
   .link-category {
     font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .title-h1 {
+    font-size: 50px;
+  }
+
+  .subtitle-h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 254px;
+    border: 10px solid pink;
+  }
+
+  .button-cta {
+    margin: 20px 0px 0px 14px;
   }
 }
 
