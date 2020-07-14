@@ -536,7 +536,8 @@ body {
    right:20%;
 
         @media (min-width: 319px) and (max-width: 374px) {
-
+            top:120%;
+            right:20%;
         }
         @media (min-width: 481px) and (max-width: 768px) {
             margin: 50px 0px 0px 460px;
@@ -584,6 +585,11 @@ body {
     left: 10%;
     position: absolute;
     // transform: translate(35px, -20px);
+        @media (min-width: 319px) and (max-width: 374px){
+            font-size: 8px;
+            top: 52%;
+            left: 8%;
+        }
 
         @media (min-width: 481px) and (max-width: 768px){
             width: 70px;
@@ -687,6 +693,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: -40% 0% 0% 10%;
+
+        @media (min-width: 319px) and (max-width: 374px){
+            margin: 0px 0px 0px 0px;
+        }
 
         @media (min-width: 481px) and (max-width: 768px){
             width: 180px;

@@ -979,8 +979,23 @@ body {
 }
 
 @media (min-width: 319px) and (max-width: 374px) {
+  .bottom__container {
+    top: 120%;
+    right: 20%;
+  }
+
   .poem__text {
     font-size: 8px;
+  }
+
+  .signature__image {
+    font-size: 8px;
+    top: 52%;
+    left: 8%;
+  }
+
+  .button-cta {
+    margin: 0px 0px 0px 0px;
   }
 }
 
