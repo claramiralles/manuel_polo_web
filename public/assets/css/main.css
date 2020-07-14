@@ -978,7 +978,7 @@ body {
   margin: -40% 0% 0% 10%;
 }
 
-@media (min-width: 319px) and (max-width: 374px) {
+@media (min-width: 319px) and (max-width: 481px) {
   .bottom__container {
     top: 120%;
     right: 20%;
