@@ -63,13 +63,6 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  border: 1px solid #596A62;
 }
 
 .paint__information-container-list {
@@ -80,16 +73,10 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   color: #596A62;
   font-weight: 500;
   text-decoration: none;
-  width: 45vw;
+  width: 70vw;
 }
 
 .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
@@ -111,6 +98,7 @@
   font-weight: 500;
   text-decoration: none;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .image-exposition-list {
@@ -126,8 +114,13 @@
     font-size: 46px;
   }
 
+  .paint__information-container-list {
+    width: 80vw;
+  }
+
   .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 1.4;
   }
 
   .image-exposition-list {
@@ -150,8 +143,12 @@
     font-size: 90px;
   }
 
+  .paint__information-container-list {
+    width: 80vw;
+  }
+
   .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .image-exposition-list {
