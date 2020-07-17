@@ -138,9 +138,9 @@
 }
 
 .title-footer {
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   padding-top: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   color: whitesmoke;
 }
 
@@ -780,6 +780,23 @@
   margin: 0px 0px 0px 50px;
   -webkit-transform: translateY(-70px);
   transform: translateY(-70px);
+}
+
+@media (min-width: 319px) and (max-width: 481px) {
+  .container-footer {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+  }
+
+  .title-footer {
+    -webkit-transform: translate(26px, 12px);
+    transform: translate(26px, 12px);
+  }
+
+  .subtitle-footer {
+    -webkit-transform: translate(26px, 11px);
+    transform: translate(26px, 11px);
+  }
 }
 
 @media all and (min-width: 768px) {
