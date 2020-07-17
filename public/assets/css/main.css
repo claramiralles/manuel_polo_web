@@ -917,7 +917,7 @@ body {
 }
 
 .poem__text {
-  font-size: 6px;
+  font-size: 8px;
   font-style: italic;
 }
 
@@ -978,24 +978,31 @@ body {
   margin: -40% 0% 0% 10%;
 }
 
+@media (min-width: 319px) and (max-width: 376px) {
+  .right__container {
+    margin: 90px 0px 0px 0px;
+  }
+}
+
 @media (min-width: 319px) and (max-width: 481px) {
   .bottom__container {
-    top: 120%;
-    right: 20%;
+    top: 130%;
+    right: 10%;
   }
 
   .poem__text {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .signature__image {
+    width: 70px;
     font-size: 8px;
-    top: 52%;
+    top: 48%;
     left: 8%;
   }
 
   .button-cta {
-    margin: 0px 0px 0px 0px;
+    margin: -10px 0px 0px 0px;
   }
 }
 

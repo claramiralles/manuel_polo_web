@@ -4,10 +4,11 @@
   display: flex;
   position: fixed;
   width: 100vw;
-  height: 50px;
+  height: auto;
   z-index: 3;
   background-image: -webkit-gradient(linear, right top, left top, from(#2B2D42), to(#565977));
   background-image: linear-gradient(-90deg, #2B2D42, #565977);
+  padding: 2px 0px;
 }
 
 .menu-logo-container {
@@ -36,35 +37,6 @@
   padding: 15px;
 }
 
-.mobile-container-list {
-  background-color: #242424;
-  padding-top: 220px;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  text-align: center;
-  z-index: -1;
-  -webkit-animation: opacity 300ms ease-in-out normal;
-  animation: opacity 300ms ease-in-out normal;
-}
-
-.mobile-container-list > li {
-  list-style: none;
-  margin-bottom: 5px;
-}
-
-.mobile-element {
-  color: white;
-  text-decoration: none;
-  font-size: 3.3rem;
-}
-
-.mobile-element:hover {
-  text-decoration: line-through;
-}
-
 .menu-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,7 +54,6 @@
   list-style: none;
   text-align: center;
   width: 100vw;
-  height: auto;
   display: flex;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
@@ -95,7 +66,7 @@
   display: block;
   text-decoration: none;
   color: whitesmoke;
-  margin: 0 8px;
+  margin: 10px 8px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -134,10 +105,34 @@ nav ul li a:hover:after {
   height: 100%;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .menu-element {
     font-size: 1.35rem;
     padding: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .menu-element {
+    font-size: 1.45rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+  .menu-element {
+    font-size: 2.15rem;
+    margin: 10px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menu-element {
+    font-size: 2.75rem;
+    margin: 10px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
