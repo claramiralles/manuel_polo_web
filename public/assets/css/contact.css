@@ -657,7 +657,7 @@
 }
 
 .contact-me-subtitle {
-  padding: 5px 0px 10px 25px;
+  padding: 0px 0px 0px 50px;
   font-size: 1.5rem;
   text-decoration: none;
   -webkit-transition: -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);

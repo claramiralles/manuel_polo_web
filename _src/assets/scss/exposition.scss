@@ -101,14 +101,19 @@
     color: $lightGrey;
     font-weight: 500;
     text-decoration: none;
-    width: 70vw;
+    width: 80vw;
 
-    @media (min-width: 481px) {
+    @media (min-width: 319px) and (max-width: 481px){
         width: 80vw;
     }
-
-    @media (min-width: 1023px) {
-        width: 80vw;
+    @media (min-width: 481px) and (max-width: 768px){
+        width: 90vw;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        width: 100vw;
+    }
+    @media (min-width: 1025px) {
+        width: 100vw;
     }
 }
 

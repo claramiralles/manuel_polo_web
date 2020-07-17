@@ -76,7 +76,7 @@
   color: #596A62;
   font-weight: 500;
   text-decoration: none;
-  width: 70vw;
+  width: 80vw;
 }
 
 .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
@@ -105,6 +105,12 @@
   width: 20vw;
 }
 
+@media (min-width: 319px) and (max-width: 481px) {
+  .paint__information-container-list {
+    width: 80vw;
+  }
+}
+
 @media (min-width: 481px) {
   .paint__information-container,.paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
     font-size: 22px;
@@ -114,10 +120,6 @@
     font-size: 46px;
   }
 
-  .paint__information-container-list {
-    width: 80vw;
-  }
-
   .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
     font-size: 16px;
     line-height: 1.4;
@@ -125,6 +127,18 @@
 
   .image-exposition-list {
     font-size: 25px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .paint__information-container-list {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .paint__information-container-list {
+    width: 100vw;
   }
 }
 
@@ -143,10 +157,6 @@
     font-size: 90px;
   }
 
-  .paint__information-container-list {
-    width: 80vw;
-  }
-
   .paint__number-list,.paint__title-list,.paint__dimensions-list,.paint__date-list,.paint__price-list {
     font-size: 16px;
   }
@@ -154,6 +164,12 @@
   .image-exposition-list {
     padding: 30px 0px 40px 50px;
     font-size: 30px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .paint__information-container-list {
+    width: 100vw;
   }
 }
 
