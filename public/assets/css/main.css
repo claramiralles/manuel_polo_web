@@ -919,6 +919,7 @@ body {
 .poem__text {
   font-size: 8px;
   font-style: italic;
+  line-height: 1.4;
 }
 
 .signature__image {
@@ -1022,6 +1023,21 @@ body {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .container-footer {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+  }
+
+  .title-footer {
+    -webkit-transform: translate(26px, 12px);
+    transform: translate(26px, 12px);
+  }
+
+  .subtitle-footer {
+    -webkit-transform: translate(26px, 11px);
+    transform: translate(26px, 11px);
+  }
+
   .bottom__container {
     margin: 50px 0px 0px 460px;
     padding-bottom: 70px;
@@ -1032,7 +1048,7 @@ body {
   }
 
   .signature__image {
-    width: 70px;
+    width: 100px;
     top: 30%;
     left: 10%;
   }
@@ -1169,22 +1185,53 @@ body {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .container-footer {
+    -webkit-transform: translateY(-22px);
+    transform: translateY(-22px);
+  }
+
+  .title-footer {
+    -webkit-transform: translate(26px, 12px);
+    transform: translate(26px, 12px);
+    font-size: 1.35rem;
+  }
+
+  .subtitle-footer {
+    -webkit-transform: translate(26px, 5px);
+    transform: translate(26px, 5px);
+    font-size: 1.45rem;
+  }
+
+  .right__container {
+    margin: 90px 0px 0px 75px;
+  }
+
+  .bottom__container {
+    width: 280px;
+    margin: 130px 0px 0px 0px;
+    top: 95%;
+    right: 8%;
+  }
+
   .poem__text {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .signature__image {
-    top: 27%;
-    left: 60%;
+    width: 180px;
+    top: 45%;
+    left: 15%;
   }
 
   .title-h1 {
-    font-size: 40px;
+    font-size: 55px;
+    padding-left: 2px;
   }
 
   .subtitle-h2 {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 33px;
+    margin-left: -60px;
+    padding-top: 20px;
   }
 
   .button-cta {
@@ -1193,6 +1240,45 @@ body {
     padding: 20px 10px;
     font-size: 30px;
     font-weight: 400;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container-footer {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+  }
+
+  .title-footer {
+    -webkit-transform: translate(26px, 12px);
+    transform: translate(26px, 12px);
+  }
+
+  .subtitle-footer {
+    -webkit-transform: translate(26px, 11px);
+    transform: translate(26px, 11px);
+  }
+
+  .right__container {
+    top: 50%;
+    left: 50%;
+  }
+
+  .bottom__container {
+    width: 260px;
+    bottom: 2%;
+    right: 4%;
+    text-align: left;
+  }
+
+  .poem__text {
+    font-size: 14px;
+  }
+
+  .signature__image {
+    width: 170px;
+    top: 55%;
+    left: 25%;
   }
 }
 
@@ -1315,30 +1401,6 @@ body {
 
   .link-category {
     font-size: 1.4rem;
-  }
-}
-
-@media (min-width: 1025px) {
-  .right__container {
-    top: 50%;
-    left: 50%;
-  }
-
-  .bottom__container {
-    bottom: 2%;
-    right: 4%;
-    width: 260px;
-    text-align: left;
-  }
-
-  .poem__text {
-    font-size: 14px;
-  }
-
-  .signature__image {
-    width: 170px;
-    top: 55%;
-    left: 25%;
   }
 }
 

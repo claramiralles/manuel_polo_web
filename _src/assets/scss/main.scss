@@ -512,21 +512,17 @@ body {
     justify-content: center;
     align-items: center;
     display: absolute;
-    // margin: 50px 0px 0px 140px;
         @media (min-width: 319px) and (max-width: 376px){
-            // transform: translate(37px, 122px);
             margin: 90px 0px 0px 0px;
         }
         @media (min-width: 481px) and (max-width: 768px){
-            // transform: translate(140px, 220px);
         }
         @media (min-width: 769px) and (max-width: 1024px){
-            // transform: translate(10px, 240px);
+            margin: 90px 0px 0px 75px;
         }
         @media (min-width: 1025px) {
             top: 50%;
             left: 50%;
-            // transform: translate(10px, 320px);
         }
 }
 
@@ -545,22 +541,24 @@ body {
             padding-bottom: 70px;
         }
         @media (min-width: 769px) and (max-width: 1024px) {
-
+            width: 280px;
+            margin: 130px 0px 0px 0px;
+            top:95%;
+            right:8%;
         }
         @media (min-width: 1025px) {
+            width: 260px;
             bottom: 2%;
             right: 4%;
-            width: 260px;
             text-align: left;
         }
 
 }
 
 .poem__text {
-
    font-size: 8px;
    font-style: italic;
-    // margin: 50px 0px 0px 140px;
+   line-height: 1.4;
         @media (min-width: 319px) and (max-width: 481px){
             font-size: 9px;
         }
@@ -568,7 +566,7 @@ body {
             font-size: 10px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
-            font-size: 12px;
+            font-size: 18px;
         }
         @media (min-width: 1025px) {
             font-size: 14px;
@@ -594,15 +592,16 @@ body {
         }
 
         @media (min-width: 481px) and (max-width: 768px){
-            width: 70px;
+            width: 100px;
             // margin: 0px 0px 0px 10px;
             // transform: translate(100px, -80px);
             top: 30%;
             left: 10%;
         }
         @media (min-width: 769px) and (max-width: 1024px){
-            top: 27%;
-            left: 60%;
+            width: 180px;
+            top: 45%;
+            left: 15%;
         }
         @media (min-width: 1025px) {
             width: 170px;
@@ -621,14 +620,15 @@ body {
     font-weight: 500;
     font-size: 22px;
     color: $darkGrey;
-
+   
         @media (min-width: 481px) and (max-width: 768px){
             font-size: 30px;
             margin-left: 0;
             padding-left: 10px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
-            font-size: 40px;
+            font-size: 55px;
+            padding-left: 2px;
         }
         @media (min-width: 1025px) and (max-width:1439px) {
             font-size: 50px;
@@ -657,9 +657,9 @@ body {
             padding-bottom: 20px;
         }
         @media (min-width: 769px) and (max-width: 1024px){
-            font-size: 20px;
-            // margin-left: -30px;
-            padding-top: 10px;
+            font-size: 33px;
+            margin-left: -60px;
+            padding-top: 20px;
         }
         @media (min-width: 1025px) and (max-width:1439px) {
             font-size: 30px;

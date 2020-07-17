@@ -799,6 +799,23 @@
   }
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+  .container-footer {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+  }
+
+  .title-footer {
+    -webkit-transform: translate(26px, 12px);
+    transform: translate(26px, 12px);
+  }
+
+  .subtitle-footer {
+    -webkit-transform: translate(26px, 11px);
+    transform: translate(26px, 11px);
+  }
+}
+
 @media all and (min-width: 768px) {
   .page__main-title {
     font: Arial;
@@ -931,6 +948,25 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-footer {
+    -webkit-transform: translateY(-22px);
+    transform: translateY(-22px);
+  }
+
+  .title-footer {
+    -webkit-transform: translate(26px, 12px);
+    transform: translate(26px, 12px);
+    font-size: 1.35rem;
+  }
+
+  .subtitle-footer {
+    -webkit-transform: translate(26px, 5px);
+    transform: translate(26px, 5px);
+    font-size: 1.45rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .title-contact {
     font-size: 42px;
@@ -938,6 +974,23 @@
 
   .contact__text {
     font-size: 28px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container-footer {
+    -webkit-transform: translateY(-18px);
+    transform: translateY(-18px);
+  }
+
+  .title-footer {
+    -webkit-transform: translate(26px, 12px);
+    transform: translate(26px, 12px);
+  }
+
+  .subtitle-footer {
+    -webkit-transform: translate(26px, 11px);
+    transform: translate(26px, 11px);
   }
 }
 
