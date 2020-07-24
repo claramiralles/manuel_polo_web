@@ -1046,8 +1046,8 @@ body {
   }
 
   .bottom__container {
-    top: 140%;
-    right: 20%;
+    top: 120%;
+    right: 15%;
   }
 
   .signature__image {
@@ -1084,7 +1084,7 @@ body {
 
 @media (min-width: 481px) and (max-width: 767px) {
   .poem__text {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
