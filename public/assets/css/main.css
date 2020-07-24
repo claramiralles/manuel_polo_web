@@ -909,7 +909,6 @@ body {
 }
 
 .bottom__container {
-  width: 120px;
   position: absolute;
   top: 90%;
   right: 20%;
@@ -994,11 +993,6 @@ body {
     transform: translate(26px, 11px);
   }
 
-  .bottom__container {
-    top: 130%;
-    right: 10%;
-  }
-
   .poem__text {
     font-size: 9px;
   }
@@ -1021,6 +1015,20 @@ body {
   }
 }
 
+@media (min-width: 319px) and (max-width: 374px) {
+  .bottom__container {
+    top: 120%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 481px) {
+  .bottom__container {
+    top: 120%;
+    right: 14%;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
   .container-footer {
     -webkit-transform: translateY(-18px);
@@ -1038,12 +1046,8 @@ body {
   }
 
   .bottom__container {
-    margin: 50px 0px 0px 460px;
-    padding-bottom: 70px;
-  }
-
-  .poem__text {
-    font-size: 10px;
+    top: 140%;
+    right: 20%;
   }
 
   .signature__image {
@@ -1075,6 +1079,12 @@ body {
     padding: 5px 1px 5px 1px;
     font-size: 20px;
     font-weight: 400;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .poem__text {
+    font-size: 10px;
   }
 }
 
@@ -1181,6 +1191,10 @@ body {
   .link-category {
     font-size: 1.4rem;
   }
+
+  .poem__text {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -1206,14 +1220,8 @@ body {
   }
 
   .bottom__container {
-    width: 280px;
-    margin: 130px 0px 0px 0px;
-    top: 95%;
-    right: 8%;
-  }
-
-  .poem__text {
-    font-size: 18px;
+    top: 130%;
+    right: 20%;
   }
 
   .signature__image {
@@ -1264,14 +1272,12 @@ body {
   }
 
   .bottom__container {
-    width: 260px;
-    bottom: 2%;
-    right: 4%;
-    text-align: left;
+    top: 140%;
+    right: 20%;
   }
 
   .poem__text {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .signature__image {
