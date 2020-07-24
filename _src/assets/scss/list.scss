@@ -1,44 +1,115 @@
 @import "core/_variables.scss";
 
 .item-container-list {
-    display: flex;
-    flex-direction: row;
+
 }
 
 .paint__information-container-list {
-    display: flex;
-    flex-direction: column;
     color: $lightGrey;
     font-weight: 500;
     text-decoration: none;
-    width: 80vw;
-
-    @media (min-width: 319px) and (max-width: 481px){
-        width: 80vw;
-    }
-    @media (min-width: 481px) and (max-width: 768px){
+    width: 90vw;
+    @media (min-width: 319px) and (max-width: 374px){
         width: 90vw;
     }
+
+    @media (min-width: 375px) and (max-width: 481px){
+        width: 90vw;
+    }
+    @media (min-width: 481px) and (max-width: 768px){
+        width: 70vw;
+    }
     @media (min-width: 769px) and (max-width: 1024px){
-        width: 100vw;
+        width: 60vw;
     }
     @media (min-width: 1025px) {
-        width: 100vw;
+        width: 60vw;
     }
+}
+
+.paint__title-list {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.paint__title-list__element {
+    display: inline;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 3%;
+        @media (min-width: 319px) and (max-width: 374px){
+            font-size: 8px;
+        }
+        @media (min-width: 375px) and (max-width: 481px){
+            font-size: 9px;
+        }
+        @media (min-width: 481px) and (max-width: 768px){
+            font-size: 14px;
+        }
+        @media (min-width: 769px) and (max-width: 1024px){
+            font-size: 16px;
+        }
+        @media (min-width: 1025px) {
+            font-size: 20px;
+        }
 }
 
 .paint__title-list__number {
+    width: 10%;
     
 }
 .paint__title-list__name {
-    
+    width: 60%;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px !important;
 }
 .paint__title-list__date {
-    
+    width: 10%;
+    margin: 0px;
+    padding: 0px;
+    @media (min-width: 319px) and (max-width: 374px){
+        font-size: 6px;
+    }
+
+    @media (min-width: 375px) and (max-width: 481px){
+        font-size: 7px;
+    }
+
+    @media (min-width: 481px) and (max-width: 768px){
+        font-size: 12px;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        font-size: 14px;
+    }
+    @media (min-width: 1025px) {
+        font-size: 18px;
+    }
 }
 .paint__title-list__measures {
-    
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    @media (min-width: 319px) and (max-width: 374px){
+        font-size: 7px;
+    }
+
+    @media (min-width: 375px) and (max-width: 481px){
+        font-size: 8px;
+    }
+
+    @media (min-width: 481px) and (max-width: 768px){
+        font-size: 13px;
+    }
+    @media (min-width: 769px) and (max-width: 1024px){
+        font-size: 15px;
+    }
+    @media (min-width: 1025px) {
+        font-size: 19px;
+    }
 }
 .paint__title-list__price {
-    
+    width: 10%;
+    margin: 0px;
+    padding: 0px;
 }
