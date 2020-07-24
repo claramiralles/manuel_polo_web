@@ -23,8 +23,8 @@
 }
 
 .paint__information-container {
-  margin-top: -10px;
-  margin-bottom: 16px;
+  margin-top: 0%;
+  margin-bottom: 16%;
 }
 
 .paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
@@ -60,23 +60,39 @@
   color: #4A4A4A;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 319px) and (max-width: 374px) {
   .paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
     font-size: 10px;
   }
+}
 
+@media (min-width: 320px) and (max-width: 480px) {
   .title-exposition {
     font-size: 17px;
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 375px) and (max-width: 481px) {
   .paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
-    font-size: 22px;
+    font-size: 12px;
   }
+}
 
+@media (min-width: 481px) and (max-width: 768px) {
+  .paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 481px) {
   .title-exposition {
     font-size: 46px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
+    font-size: 18px;
   }
 }
 
@@ -86,13 +102,15 @@
     padding-bottom: 30px;
   }
 
-  .paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
-    font-size: 50px;
-  }
-
   .title-exposition {
     padding: 30px 0px 40px 50px;
     font-size: 90px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
+    font-size: 22px;
   }
 }
 
