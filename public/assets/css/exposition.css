@@ -111,6 +111,12 @@
   }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .title-exposition,.title-list {
+    font-size: 17px;
+  }
+}
+
 @media (min-width: 481px) {
   .paint__information-container,.paint__number,.paint__title,.paint__dimensions,.paint__date,.paint__price {
     font-size: 22px;
